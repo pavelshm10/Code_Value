@@ -1,0 +1,40 @@
+<div class="product-details margin-auto">
+  <div class="img-container text-align-center">
+    <img class="product-img" [src]="product.url" />
+  </div>
+  <form class="product-info column-flex">
+    <div class="input-container">
+      <label for="name">Name  </label>
+      <input
+        type="text"
+        class="input"
+        [(ngModel)]="product.Name"
+        placeholder="Name"
+        name="name"
+      />
+    </div>
+    <div class="input-container">
+      <label for="description">Description  </label>
+      <input
+        class="input"
+        type="text"
+        [(ngModel)]="product.Description"
+        placeholder="Description"
+        name="description"
+      />
+    </div>
+    <div class="input-container">
+      <label for="price">Price  </label>
+      <input
+        class="input"
+        type="text"
+        [(ngModel)]="product.Price"
+        placeholder="Price"
+        name="price"
+      />
+    </div>
+    <button class="btn margin-auto" (click)="onSave()" id="saveBtn">
+      Save
+    </button>
+  </form>
+</div>

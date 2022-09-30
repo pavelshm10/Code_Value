@@ -1,0 +1,11 @@
+<div class="app">
+  <div class="header">
+    <span class="title">My Store</span>
+  </div>
+  <div class="products-container row-flex">
+    <app-products (currentProduct)="updateProduct()" [products]="products" class="products"></app-products>
+    <app-product-details (editProduct)="updateProducts()" [product]="product"
+      class="product-details row-flex"
+    ></app-product-details>
+  </div>
+</div>

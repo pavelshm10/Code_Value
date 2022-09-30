@@ -1,0 +1,26 @@
+.app{
+    border: 2px solid black;
+    .header{
+        height: 100px;
+        background-color: #6495ed;
+        border: 1px solid black;
+        .title{
+            line-height: 3;
+            font-size: 30px;
+        }
+    }
+    .products-container{
+        height: 850px;
+        .product-details{
+            width: 50%;
+            height: 700px;
+        }
+        .products{
+            width: 50%;
+            height: 700px;
+            display: column;
+            margin: 20px 30px 0 30px;
+        }
+    }
+    
+}

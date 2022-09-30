@@ -1,0 +1,14 @@
+<div
+  class="product row-flex"
+  *ngFor="let p of products"
+  (click)="handleProductClick(p)"
+  [id]="p.ID"
+>
+  <div class="img-container row-flex">
+    <img class="product-img margin-auto" [src]="p.url" />
+  </div>
+  <div class="product-info margin-auto">
+    {{ p.Name }}<br />
+  </div>
+  <button class="btn" (click)="deleteProduct(p.ID)">Delete</button>
+</div>

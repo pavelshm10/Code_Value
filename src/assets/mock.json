@@ -1,0 +1,43 @@
+[{
+    "ID":1,
+    "Name":"Banana",
+    "Description": "yellow, long",
+    "Price": 13,
+    "Creation_Date": "28-09-22",
+    "url": "../../assets/images/banana.jpg"             
+},{
+    "ID":2,
+    "Name":"Apple",
+    "Description": "red, round",
+    "Price": 12,
+    "Creation_Date": "27-09-22",
+    "url": "../../assets/images/apple.jpg"             
+},{
+    "ID":3,
+    "Name":"Water-Melon",
+    "Description": "big, green",
+    "Price": 20,
+    "Creation_Date": "26-09-22",
+    "url": "../../assets/images/water-melon.jpg"              
+},{
+    "ID":4,
+    "Name":"Grapes",
+    "Description": "small, round",
+    "Price": 13,
+    "Creation_Date": "20-09-22" ,
+    "url": "../../assets/images/grapes.jpg"             
+},{
+    "ID":5,
+    "Name":"Kiwi",
+    "Description": "small, green",
+    "Price": 16,
+    "Creation_Date": "18-09-22",
+    "url": "../../assets/images/kiwi.jpg"              
+},{
+    "ID":6,
+    "Name":"Orange",
+    "Description": "orange, round",
+    "Price": 16,
+    "Creation_Date": "24-09-22",
+    "url": "../../assets/images/orange.jpg"              
+}]

@@ -1,0 +1,22 @@
+.product{
+    width: 500px;
+    height: 100px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    .img-container{
+        width: 20%;
+        .product-img{
+            width: 70px;
+            height: 70px;
+        }
+    }
+    
+    .product-info{
+        width: 80%;
+    }
+    .btn{
+        margin: 55px 10px 0 0;
+    }
+}
+
+
